@@ -12,12 +12,27 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: $openSans;
+}
+
+body {
+	background-color: $richBlack;
+	color: $offWhite;
 }
 
 .app {
 	width: 100vw;
 	height: 100vh;
-	background-color: $richBlack;
-	font-family: $openSans;
-	color: $offWhite;
+}
+
+.container {
+	width: 100%;
+	padding: 2rem;
+	@include media('<=phone') {
+		padding: 2rem 1rem;
+	}
+}
+
+a {
+	text-decoration: none;
 }

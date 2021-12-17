@@ -1,0 +1,26 @@
+.card {
+	background: $secondary;
+	cursor: pointer;
+	&__item {
+		position: relative;
+
+		&-top {
+			height: 370px;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		&-bottom {
+			padding-bottom: 1.25rem;
+			.bottom-info {
+				h4 {
+					font-size: 1.25rem;
+				}
+				p {
+					font-size: 0.875rem;
+					line-height: 1.25rem;
+				}
+			}
+		}
+	}
+}

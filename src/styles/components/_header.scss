@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	background-color: $secondary;
+
+	.logo {
+		color: $offWhite;
+		font-size: 1.25rem;
+		letter-spacing: 1px;
+		font-weight: 100;
+		text-transform: uppercase;
+		a {
+		}
+	}
+
+	.user-image {
+		width: 30px;
+		height: 30px;
+		svg {
+			width: 30px;
+			height: 30px;
+			border: 2px solid $offWhite;
+			border-radius: 30px;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.footer {
+	background-color: $secondary;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 2rem;
+
+	&__title {
+		text-transform: uppercase;
+	}
+
+	&__copyright {
+		font-size: 0.875rem;
+	}
+}
