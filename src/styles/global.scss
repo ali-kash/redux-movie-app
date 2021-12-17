@@ -1,5 +1,12 @@
 @import './variables';
 @import './breakpoints';
+@import './components/header';
+@import './components/footer';
+@import './components/home';
+@import './components/movie-card';
+@import './components/movie-detail';
+@import './components/movie-listing';
+@import './components/page-not-found';
 
 * {
 	margin: 0;
@@ -10,5 +17,7 @@
 .app {
 	width: 100vw;
 	height: 100vh;
-	background-color: $bg;
+	background-color: $richBlack;
+	font-family: $openSans;
+	color: $offWhite;
 }
